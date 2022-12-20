@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/CMakeFiles/bootloader
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/CMakeFiles/bootloader.rule
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/CMakeFiles/bootloader-complete.rule
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

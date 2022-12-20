@@ -1,0 +1,22 @@
+[1/14] Performing build step for 'bootloader'
+[1/1] cd /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/examples/sdmmc/build/bootloader/esp-idf/esptool_py && /Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/bin/python /Users/alfredochavez/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/examples/sdmmc/build/bootloader/bootloader.bin
+Bootloader binary size 0x6700 bytes. 0x900 bytes (8%) free.
+[2/14] No install step for 'bootloader'
+[3/14] Completed 'bootloader'
+[4/14] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj
+[5/14] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj
+[6/14] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdmmc_transaction.c.obj
+[7/14] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdmmc_host.c.obj
+[8/14] Linking C static library esp-idf/driver/libdriver.a
+[9/14] Linking C static library esp-idf/fatfs/libfatfs.a
+[10/14] Linking C static library esp-idf/main/libmain.a
+[11/14] Generating ld/sections.ld
+[12/14] Linking CXX executable examples.elf
+[13/14] Generating binary image from built executable
+esptool.py v4.4
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/examples/sdmmc/build/examples.bin
+[14/14] cd /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/examples/sdmmc/build/esp-idf/esptool_py && /Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/bin/python /Users/alfredochavez/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/examples/sdmmc/build/partition_table/partition-table.bin /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/examples/sdmmc/build/examples.bin
+examples.bin binary size 0x3b780 bytes. Smallest app partition is 0x100000 bytes. 0xc4880 bytes (77%) free.

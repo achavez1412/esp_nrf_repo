@@ -1,0 +1,48 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"idf.openOcdConfigs": [
+			"board/esp32-wrover-kit-3.3v.cfg"
+		],
+		"idf.adapterTargetName": "esp32",
+		"idf.espIdfPath": "/Users/alfredochavez/esp/esp-idf",
+		"idf.pythonBinPath": "/Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/bin/python",
+		"idf.toolsPath": "/Users/alfredochavez/.espressif",
+		"idf.customExtraPaths": "/Users/alfredochavez/.espressif/tools/xtensa-esp-elf-gdb/11.2_20220823/xtensa-esp-elf-gdb/bin:/Users/alfredochavez/.espressif/tools/riscv32-esp-elf-gdb/11.2_20220823/riscv32-esp-elf-gdb/bin:/Users/alfredochavez/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin:/Users/alfredochavez/.espressif/tools/xtensa-esp32s2-elf/esp-2022r1-11.2.0/xtensa-esp32s2-elf/bin:/Users/alfredochavez/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin:/Users/alfredochavez/.espressif/tools/riscv32-esp-elf/esp-2022r1-11.2.0/riscv32-esp-elf/bin:/Users/alfredochavez/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/Users/alfredochavez/.espressif/tools/openocd-esp32/v0.11.0-esp32-20221026/openocd-esp32/bin",
+		"idf.customExtraVars": "{\"OPENOCD_SCRIPTS\":\"/Users/alfredochavez/.espressif/tools/openocd-esp32/v0.11.0-esp32-20221026/openocd-esp32/share/openocd/scripts\"}",
+		"idf.gitPath": "/usr/local/bin/git",
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#757cbd",
+			"activityBar.background": "#757cbd",
+			"activityBar.foreground": "#15202b",
+			"activityBar.inactiveForeground": "#15202b99",
+			"activityBarBadge.background": "#e0bec2",
+			"activityBarBadge.foreground": "#15202b",
+			"commandCenter.border": "#e7e7e799",
+			"sash.hoverBorder": "#757cbd",
+			"statusBar.background": "#535bac",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#757cbd",
+			"statusBarItem.remoteBackground": "#535bac",
+			"statusBarItem.remoteForeground": "#e7e7e7",
+			"titleBar.activeBackground": "#535bac",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#535bac99",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"peacock.color": "#535bac",
+		"files.associations": {
+			"sdmmc_host.h": "c",
+			"filesystem": "c",
+			"string.h": "c",
+			"future": "c",
+			"regex": "c",
+			"sd_card_make_file.h": "c",
+			"sdmmc_cmd.h": "c"
+		}
+	}
+}

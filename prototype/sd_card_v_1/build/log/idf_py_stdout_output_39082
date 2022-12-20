@@ -1,0 +1,33 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/bootloader/esp-idf/esptool_py && /Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/bin/python /Users/alfredochavez/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/bootloader/bootloader.bin
+Bootloader binary size 0x6700 bytes. 0x900 bytes (8%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/main/app_main.c: In function 'app_main':
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/main/app_main.c:101:85: warning: passing argument 8 of 'sd_card_write_file' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  101 |     sd_card_write_file(ready, filename, data_array, bytes_to_write, TAG, ret, card, mount_point);
+      |                                                                                     ^~~~~~~~~~~
+In file included from /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/main/app_main.c:19:
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/main/sd_card_headers/sd_card_make_file.h:1:162: note: expected 'char *' but argument is of type 'const char *'
+    1 | esp_err_t sd_card_write_file(bool ready, char *filename, uint8_t *incoming_data, size_t bytes_to_write, const char *TAG, esp_err_t ret,sdmmc_card_t *card, char *mount_point);
+      |                                                                                                                                                            ~~~~~~^~~~~~~~~~~
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/main/app_main.c:106:84: warning: passing argument 8 of 'sd_card_read_file' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  106 |     sd_card_read_file(ready, filename, data_array, bytes_to_write, TAG, ret, card, mount_point);
+      |                                                                                    ^~~~~~~~~~~
+In file included from /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/main/app_main.c:19:
+/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/main/sd_card_headers/sd_card_make_file.h:2:157: note: expected 'char *' but argument is of type 'const char *'
+    2 | esp_err_t sd_card_read_file(bool ready, char *filename, uint8_t *data_array, size_t bytes_to_read, const char *TAG, esp_err_t ret,sdmmc_card_t *card, char *mount_point);
+      |                                                                                                                                                       ~~~~~~^~~~~~~~~~~
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/sd_card/sd_card_make_file.c.obj
+[5/10] Completed 'bootloader'
+[6/10] Linking C static library esp-idf/main/libmain.a
+[7/10] Generating ld/sections.ld
+[8/10] Linking CXX executable sd_card_v_1.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.4
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/sd_card_v_1.bin
+[10/10] cd /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/esp-idf/esptool_py && /Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/bin/python /Users/alfredochavez/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/partition_table/partition-table.bin /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/sd_card_v_1.bin
+sd_card_v_1.bin binary size 0x3c890 bytes. Smallest app partition is 0x100000 bytes. 0xc3770 bytes (76%) free.

@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/local/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/lib/python3.10/site-packages/esptool/__main__.py", line 11, in <module>
+    esptool._main()
+  File "/Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/lib/python3.10/site-packages/esptool/__init__.py", line 1026, in _main
+    main()
+  File "/Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/lib/python3.10/site-packages/esptool/__init__.py", line 810, in main
+    esp.flash_set_parameters(flash_size_bytes(args.flash_size))
+  File "/Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/lib/python3.10/site-packages/esptool/loader.py", line 1145, in flash_set_parameters
+    self.check_command(
+  File "/Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/lib/python3.10/site-packages/esptool/loader.py", line 407, in check_command
+    val, data = self.command(op, data, chk, timeout=timeout)
+  File "/Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/lib/python3.10/site-packages/esptool/loader.py", line 376, in command
+    p = self.read()
+  File "/Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/lib/python3.10/site-packages/esptool/loader.py", line 308, in read
+    return next(self._slip_reader)
+StopIteration
+CMake Error at run_serial_tool.cmake:55 (message):
+  
+  /Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/bin/python;;/Users/alfredochavez/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32
+  failed
+
+
