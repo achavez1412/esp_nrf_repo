@@ -23,7 +23,8 @@
 #include "sdmmc_cmd.h"
 #include "driver/sdmmc_host.h"
 #include "sd_card_headers/sd_card_init.h"
-#include <json-c/json.h>
+//#include <cJSON.h>
+//#include "../../components/json-c/json-c/json_c_version.h"
 
 // static const char *TAG = "make_file";
 // #define MOUNT_POINT "/sd_card_v_1"
@@ -186,8 +187,8 @@ esp_err_t sd_card_read_file(bool ready, char *filename, uint8_t *data_array, siz
         ESP_LOGI(TAG,"Current byte looks like: %x", read_hex[index]);
     }
 
-    printf("Version: %s\n", json_c_version());
-    printf("Version Number: %d\n", json_c_version_num());
+    //printf("Version: %s\n", json_c_version());
+    //printf("Version Number: %d\n", json_c_version_num());
     //free(bytes_read);
     
     if(fclose(f) != 0){

@@ -1,7 +1,0 @@
-[1/4] cd /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/esp-idf/esptool_py && /Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/bin/python /Users/alfredochavez/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/partition_table/partition-table.bin /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/sd_card_v_1.bin
-sd_card_v_1.bin binary size 0x3c900 bytes. Smallest app partition is 0x100000 bytes. 0xc3700 bytes (76%) free.
-[2/4] Performing build step for 'bootloader'
-[1/1] cd /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/bootloader/esp-idf/esptool_py && /Users/alfredochavez/.espressif/python_env/idf5.0_py3.10_env/bin/python /Users/alfredochavez/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/bootloader/bootloader.bin
-Bootloader binary size 0x6700 bytes. 0x900 bytes (8%) free.
-[3/4] No install step for 'bootloader'
-[4/4] Completed 'bootloader'

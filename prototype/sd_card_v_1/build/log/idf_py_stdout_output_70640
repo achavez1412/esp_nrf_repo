@@ -1,0 +1,7 @@
+[0/1] Re-running CMake...
+-- Component directory /Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/components/json-c does not contain a CMakeLists.txt file. No component will be added
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+See also "/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build/CMakeFiles/CMakeOutput.log".
+FAILED: build.ninja 
+/usr/local/Cellar/cmake/3.25.1/bin/cmake --regenerate-during-build -S/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1 -B/Users/alfredochavez/Desktop/Courses/EECS149/projects/esp_nrf/prototype/sd_card_v_1/build

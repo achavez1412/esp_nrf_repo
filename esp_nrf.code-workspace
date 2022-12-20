@@ -42,7 +42,10 @@
 			"future": "c",
 			"regex": "c",
 			"sd_card_make_file.h": "c",
-			"sdmmc_cmd.h": "c"
+			"sdmmc_cmd.h": "c",
+			"sd_card_init.h": "c",
+			"cjson.h": "c",
+			"json_c_version.h": "c"
 		}
 	}
 }
